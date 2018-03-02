@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	{% include "external/css.html"%}
+</head>
+<body>
+	<div class="container">
+		{% include "external/nev.html"%}
+
+		{% block content %}
+
+		{% endblock content %}
+
+		{% include "footer.html"%}
+	</div>
+	{% include "external/js.html"%}
+</body>
+</html>

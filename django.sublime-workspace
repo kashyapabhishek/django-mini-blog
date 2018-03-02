@@ -3,10 +3,45 @@
 	{
 		"selected_items":
 		[
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"di",
+				"div\tTag"
+			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/myblog/templates/index.html",
+			"settings":
+			{
+				"buffer_size": 111,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/myblog/templates/external/css.html",
+			"settings":
+			{
+				"buffer_size": 274,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/myblog/templates/external/nev.html",
+			"settings":
+			{
+				"buffer_size": 725,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -40,10 +75,26 @@
 	},
 	"expanded_folders":
 	[
-		"/F/Projects/django"
+		"/F/Projects/django",
+		"/F/Projects/django/src",
+		"/F/Projects/django/src/Blog",
+		"/F/Projects/django/src/myblog",
+		"/F/Projects/django/src/myblog/__pycache__",
+		"/F/Projects/django/src/myblog/templates",
+		"/F/Projects/django/src/myblog/templates/external"
 	],
 	"file_history":
 	[
+		"/F/Projects/django/src/myblog/templates/footer.html",
+		"/F/Projects/django/src/myblog/templates/base.html",
+		"/F/Projects/django/src/Blog/settings.py",
+		"/F/Projects/django/src/myblog/templates/external/style.css",
+		"/F/Projects/django/src/myblog/templates/external/js.html",
+		"/F/Projects/django/src/myblog/templates/external/css.html",
+		"/F/Projects/django/src/myblog/templates/external/script.js",
+		"/F/Projects/django/src/myblog/views.py",
+		"/F/Projects/django/src/Blog/urls.py",
+		"/F/Projects/django/src/myblog/urls.py",
 		"/D/Recovery.txt",
 		"/D/BOOTNXT"
 	],
@@ -86,8 +137,96 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/myblog/templates/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								86,
+								86
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/myblog/templates/external/css.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/myblog/templates/external/nev.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								725,
+								725
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -97,7 +236,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"layout":
 	{
@@ -168,7 +307,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 208.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
